@@ -26,3 +26,6 @@ class PruebaCreateView(CreateView):
     template_name = 'home/create_view_prueba.html'
     model = Prueba
     fields = ['titulo', 'subtitulo', 'cantidad']
+
+
+# TODO: es de prueba
